@@ -1,5 +1,5 @@
 import styles from "../Words.module.css";
-import { client } from "../../../../lib/client";
+import { client } from "../../../lib/client";
 import Link from "next/link";
 
 export default async function WordDetailPage({

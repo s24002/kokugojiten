@@ -1,4 +1,4 @@
-import { client } from "../../../lib/client";
+import { client } from "../../lib/client";
 import Link from "next/link";
 import styles from "./Words.module.css";
 
