@@ -39,3 +39,4 @@ Next.js の練習用としても活用できます。
 - microCMS API  
 - CSS（globals.css）  
 - LocalStorage
+- Vercel
