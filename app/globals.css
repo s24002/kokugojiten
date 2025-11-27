@@ -13,7 +13,7 @@ body {
 
 /* ダークモード */
 .page.dark {
-  background: #1e1e1e;
+  background: #000000;
   color: #ffffff;
 }
 
@@ -72,15 +72,4 @@ body {
 .page.dark .resultItem {
   background: #2c2c2c;
   border-color: #555;
-}
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #fff;
-  color: #000;
-}
-
-.dark body {
-  background-color: #222;
-  color: #eee;
 }

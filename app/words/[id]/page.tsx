@@ -1,15 +1,17 @@
-import styles from "../Words.module.css";
+import styles from "../../Words.module.css";
 import { client } from "../../../lib/client";
 import Link from "next/link";
 
 export default async function WordDetailPage({
   params,
 }: {
-  params: { id: string };
+  params: Promise<{ id: string }>;
 }) {
+  const { id } = await params;
+
   const data = await client.get({
     endpoint: "words",
-    contentId: params.id,
+    contentId: id,
   });
 
   return (
